@@ -1,0 +1,20 @@
+l=[]
+s=0
+m=int(input("enter arows"))
+n=int(input("enter columns"))
+for i in range(m):
+    r=[]
+    for j in range(n):
+        x=int(input("enter no"))
+        r.append(x)
+    l.append(r)
+print("list elements are")
+for i in range(m):
+	print(" ")
+	for j in range(n):
+	    print(l[i][j],end=" ")
+for i in range(m):
+ 	for j in range(n):
+         s=s+l[i][j]
+print("\n sum of row no",i+1,"=",s)
+	   

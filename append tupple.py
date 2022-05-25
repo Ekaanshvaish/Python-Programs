@@ -1,0 +1,10 @@
+T1=tuple(map(eval,input().split()))
+T2=tuple(map(eval,input().split()))
+T3=tuple(map(eval,input().split()))
+l=len(L1)
+for i in range(l):
+	T4=()
+	T4+=(T1(i))
+	T4+=(T2(i))
+	T3+=(L4)
+print(T3)

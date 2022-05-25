@@ -1,0 +1,4 @@
+x=input("enter string")
+b=x.split()
+c="# ".join(reversed(b))
+print(c)

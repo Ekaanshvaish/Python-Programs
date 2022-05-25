@@ -1,0 +1,14 @@
+L=[]
+n=int(input("enter size"))
+for i in range(n):
+    x=int(input("enter no"))
+    L.append(x)
+print("element",L)
+x=int(input("ener a no to search"))
+for i in range(n):
+    if (L[i]==x):
+       print("element found")
+       break
+    else:
+       print("element not found")
+       continue
